@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		672A09CE20DBE7D600E71C23 /* Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 672A09CC20DBE7D600E71C23 /* Buffer.cpp */; };
 		672A09D120DBE92F00E71C23 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 672A09CF20DBE92F00E71C23 /* Sprite.cpp */; };
+		672A09D420DC1A8800E71C23 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 672A09D220DC1A8800E71C23 /* Game.cpp */; };
 		67C5927720DAC429008E8E68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C5927620DAC429008E8E68 /* main.cpp */; };
 		67C5927F20DAC702008E8E68 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5927E20DAC702008E8E68 /* OpenGL.framework */; };
 		67C5928120DAC793008E8E68 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5928020DAC793008E8E68 /* libGLEW.2.1.0.dylib */; };
@@ -32,6 +33,8 @@
 		672A09CD20DBE7D600E71C23 /* Buffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Buffer.hpp; sourceTree = "<group>"; };
 		672A09CF20DBE92F00E71C23 /* Sprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
 		672A09D020DBE92F00E71C23 /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		672A09D220DC1A8800E71C23 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		672A09D320DC1A8800E71C23 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		67C5927320DAC429008E8E68 /* SpaceInvaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpaceInvaders; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5927620DAC429008E8E68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		67C5927E20DAC702008E8E68 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 				672A09CD20DBE7D600E71C23 /* Buffer.hpp */,
 				672A09CF20DBE92F00E71C23 /* Sprite.cpp */,
 				672A09D020DBE92F00E71C23 /* Sprite.hpp */,
+				672A09D220DC1A8800E71C23 /* Game.cpp */,
+				672A09D320DC1A8800E71C23 /* Game.hpp */,
 			);
 			path = SpaceInvaders;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				67C5927720DAC429008E8E68 /* main.cpp in Sources */,
 				672A09CE20DBE7D600E71C23 /* Buffer.cpp in Sources */,
 				672A09D120DBE92F00E71C23 /* Sprite.cpp in Sources */,
+				672A09D420DC1A8800E71C23 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

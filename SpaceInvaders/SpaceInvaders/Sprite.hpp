@@ -16,4 +16,12 @@ struct Sprite {
     uint8_t* data;
 };
 
+struct SpriteAnimation {
+    bool loop;
+    size_t numFrames;
+    size_t frameDuration;
+    size_t time;
+    Sprite** frames;
+};
+
 #endif /* Sprite_hpp */
