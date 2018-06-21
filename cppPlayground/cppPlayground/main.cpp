@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
     return 0;
+}
+
+// MARK: - Pointer of a type can hold value or array
+void pointerValueArray() {
+    int* pointer;
+    int value = 8;
+    
+    pointer = &value;
+    cout << *pointer << endl;
+    
+    int array[2] = {9, 10};
+    
+    pointer = array;
+    cout << *pointer << endl;
 }
