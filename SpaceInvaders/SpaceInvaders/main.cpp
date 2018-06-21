@@ -8,14 +8,29 @@
 #include <cstdio>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <cstdint>
 
 
-// MARK: - GLFW error handling
+// MARK: GLFW error handling
 void errorCallback(int code, const char* description) {
     fprintf(stderr, "Error: %s\n", description);
 }
 
 
+// MARK: - Buffer (screen representation)
+struct Buffer {
+    size_t width, height;
+    
+};
+
+
+// MARK: - RGB to 32 bits int
+uint32_t rgbToUint32(uint8_t r, uint8_t g, uint8_t b) {
+    return (r << 24) | (g << 16) | (b << 8) | 255;
+}
+
+
+// MARK: - Main
 int main() {
     // register GLFW error callback
     glfwSetErrorCallback(errorCallback);

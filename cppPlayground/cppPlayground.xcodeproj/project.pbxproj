@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		672A09CE20DBE7D600E71C23 /* Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 672A09CC20DBE7D600E71C23 /* Buffer.cpp */; };
-		672A09D120DBE92F00E71C23 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 672A09CF20DBE92F00E71C23 /* Sprite.cpp */; };
-		67C5927720DAC429008E8E68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C5927620DAC429008E8E68 /* main.cpp */; };
-		67C5927F20DAC702008E8E68 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5927E20DAC702008E8E68 /* OpenGL.framework */; };
-		67C5928120DAC793008E8E68 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5928020DAC793008E8E68 /* libGLEW.2.1.0.dylib */; };
-		67C5928320DAC7CE008E8E68 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5928220DAC7CE008E8E68 /* libglfw.3.2.dylib */; };
+		67C5929220DAF755008E8E68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67C5929120DAF755008E8E68 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		67C5927120DAC429008E8E68 /* CopyFiles */ = {
+		67C5928C20DAF754008E8E68 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,137 +23,109 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		672A09CC20DBE7D600E71C23 /* Buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Buffer.cpp; sourceTree = "<group>"; };
-		672A09CD20DBE7D600E71C23 /* Buffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Buffer.hpp; sourceTree = "<group>"; };
-		672A09CF20DBE92F00E71C23 /* Sprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
-		672A09D020DBE92F00E71C23 /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
-		67C5927320DAC429008E8E68 /* SpaceInvaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpaceInvaders; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C5927620DAC429008E8E68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		67C5927E20DAC702008E8E68 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		67C5928020DAC793008E8E68 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
-		67C5928220DAC7CE008E8E68 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
-		67C5928420DACB9A008E8E68 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		67C5928E20DAF755008E8E68 /* cppPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C5929120DAF755008E8E68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67C5927020DAC429008E8E68 /* Frameworks */ = {
+		67C5928B20DAF754008E8E68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C5928320DAC7CE008E8E68 /* libglfw.3.2.dylib in Frameworks */,
-				67C5928120DAC793008E8E68 /* libGLEW.2.1.0.dylib in Frameworks */,
-				67C5927F20DAC702008E8E68 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67C5926A20DAC429008E8E68 = {
+		67C5928520DAF754008E8E68 = {
 			isa = PBXGroup;
 			children = (
-				67C5927520DAC429008E8E68 /* SpaceInvaders */,
-				67C5927420DAC429008E8E68 /* Products */,
-				67C5927D20DAC701008E8E68 /* Frameworks */,
+				67C5929020DAF755008E8E68 /* cppPlayground */,
+				67C5928F20DAF755008E8E68 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		67C5927420DAC429008E8E68 /* Products */ = {
+		67C5928F20DAF755008E8E68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67C5927320DAC429008E8E68 /* SpaceInvaders */,
+				67C5928E20DAF755008E8E68 /* cppPlayground */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67C5927520DAC429008E8E68 /* SpaceInvaders */ = {
+		67C5929020DAF755008E8E68 /* cppPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				67C5927620DAC429008E8E68 /* main.cpp */,
-				67C5928420DACB9A008E8E68 /* Notes.md */,
-				672A09CC20DBE7D600E71C23 /* Buffer.cpp */,
-				672A09CD20DBE7D600E71C23 /* Buffer.hpp */,
-				672A09CF20DBE92F00E71C23 /* Sprite.cpp */,
-				672A09D020DBE92F00E71C23 /* Sprite.hpp */,
+				67C5929120DAF755008E8E68 /* main.cpp */,
 			);
-			path = SpaceInvaders;
-			sourceTree = "<group>";
-		};
-		67C5927D20DAC701008E8E68 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				67C5928220DAC7CE008E8E68 /* libglfw.3.2.dylib */,
-				67C5928020DAC793008E8E68 /* libGLEW.2.1.0.dylib */,
-				67C5927E20DAC702008E8E68 /* OpenGL.framework */,
-			);
-			name = Frameworks;
+			path = cppPlayground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67C5927220DAC429008E8E68 /* SpaceInvaders */ = {
+		67C5928D20DAF754008E8E68 /* cppPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67C5927A20DAC429008E8E68 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */;
+			buildConfigurationList = 67C5929520DAF755008E8E68 /* Build configuration list for PBXNativeTarget "cppPlayground" */;
 			buildPhases = (
-				67C5926F20DAC429008E8E68 /* Sources */,
-				67C5927020DAC429008E8E68 /* Frameworks */,
-				67C5927120DAC429008E8E68 /* CopyFiles */,
+				67C5928A20DAF754008E8E68 /* Sources */,
+				67C5928B20DAF754008E8E68 /* Frameworks */,
+				67C5928C20DAF754008E8E68 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpaceInvaders;
-			productName = SpaceInvaders;
-			productReference = 67C5927320DAC429008E8E68 /* SpaceInvaders */;
+			name = cppPlayground;
+			productName = cppPlayground;
+			productReference = 67C5928E20DAF755008E8E68 /* cppPlayground */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		67C5926B20DAC429008E8E68 /* Project object */ = {
+		67C5928620DAF754008E8E68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hilton Pintor Bezerra Leite";
 				TargetAttributes = {
-					67C5927220DAC429008E8E68 = {
+					67C5928D20DAF754008E8E68 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 67C5926E20DAC429008E8E68 /* Build configuration list for PBXProject "SpaceInvaders" */;
+			buildConfigurationList = 67C5928920DAF754008E8E68 /* Build configuration list for PBXProject "cppPlayground" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 67C5926A20DAC429008E8E68;
-			productRefGroup = 67C5927420DAC429008E8E68 /* Products */;
+			mainGroup = 67C5928520DAF754008E8E68;
+			productRefGroup = 67C5928F20DAF755008E8E68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67C5927220DAC429008E8E68 /* SpaceInvaders */,
+				67C5928D20DAF754008E8E68 /* cppPlayground */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67C5926F20DAC429008E8E68 /* Sources */ = {
+		67C5928A20DAF754008E8E68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C5927720DAC429008E8E68 /* main.cpp in Sources */,
-				672A09CE20DBE7D600E71C23 /* Buffer.cpp in Sources */,
-				672A09D120DBE92F00E71C23 /* Sprite.cpp in Sources */,
+				67C5929220DAF755008E8E68 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		67C5927820DAC429008E8E68 /* Debug */ = {
+		67C5929320DAF755008E8E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		67C5927920DAC429008E8E68 /* Release */ = {
+		67C5929420DAF755008E8E68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,32 +234,20 @@
 			};
 			name = Release;
 		};
-		67C5927B20DAC429008E8E68 /* Debug */ = {
+		67C5929620DAF755008E8E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S85M726D6S;
-				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/Cellar/glew/2.1.0/lib,
-					/usr/local/Cellar/glfw/3.2.1/lib,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		67C5927C20DAC429008E8E68 /* Release */ = {
+		67C5929720DAF755008E8E68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S85M726D6S;
-				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/Cellar/glew/2.1.0/lib,
-					/usr/local/Cellar/glfw/3.2.1/lib,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -300,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67C5926E20DAC429008E8E68 /* Build configuration list for PBXProject "SpaceInvaders" */ = {
+		67C5928920DAF754008E8E68 /* Build configuration list for PBXProject "cppPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C5927820DAC429008E8E68 /* Debug */,
-				67C5927920DAC429008E8E68 /* Release */,
+				67C5929320DAF755008E8E68 /* Debug */,
+				67C5929420DAF755008E8E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67C5927A20DAC429008E8E68 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */ = {
+		67C5929520DAF755008E8E68 /* Build configuration list for PBXNativeTarget "cppPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C5927B20DAC429008E8E68 /* Debug */,
-				67C5927C20DAC429008E8E68 /* Release */,
+				67C5929620DAF755008E8E68 /* Debug */,
+				67C5929720DAF755008E8E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 67C5926B20DAC429008E8E68 /* Project object */;
+	rootObject = 67C5928620DAF754008E8E68 /* Project object */;
 }
