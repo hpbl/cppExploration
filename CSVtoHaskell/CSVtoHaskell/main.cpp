@@ -47,6 +47,7 @@ int main(int argc, const char * argv[]) {
     haskellFile << "equalityKoans = [" << endl;
     
     if (csvFile.is_open()) {
+        int isFirstLine = 0;
         int propertyIndex = 0;
         string propertyValues[4];
         stringstream iss;
@@ -56,6 +57,11 @@ int main(int argc, const char * argv[]) {
             iss.str(line);
             
             while (getline(iss, value, ',')) {
+                if (isFirstLine < 4) {
+                    ++isFirstLine;
+                    continue;
+                }
+                
                 bool evenQuotes = hasEvenQuotes(value);
                 string accum = value;
                 

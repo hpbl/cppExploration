@@ -27,6 +27,7 @@
 		67339CEF20E2AB75003705EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		67339CF620E2AEEC003705EC /* koans.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = koans.csv; sourceTree = "<group>"; };
 		67339CF720E2AF38003705EC /* teste.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = teste.txt; sourceTree = "<group>"; };
+		67339CF820E2DD15003705EC /* convertedKoans.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = convertedKoans.hs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		67339CEE20E2AB75003705EC /* CSVtoHaskell */ = {
 			isa = PBXGroup;
 			children = (
+				67339CF820E2DD15003705EC /* convertedKoans.hs */,
 				67339CF620E2AEEC003705EC /* koans.csv */,
 				67339CEF20E2AB75003705EC /* main.cpp */,
 				67339CF720E2AF38003705EC /* teste.txt */,
