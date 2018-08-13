@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\hilto\documents\workspace\hellovs\source\source.cpp(5): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  HelloVS.vcxproj -> C:\Users\hilto\Documents\workspace\HelloVS\x64\Debug\HelloVS.exe
